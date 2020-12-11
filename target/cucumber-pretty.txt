@@ -1,0 +1,15 @@
+@get_hotels_and_locations
+Feature: Verify Get Hotels and Location API.
+
+  Scenario Outline: Verify Get Hotels And Locations API Response Code. # src/test/resources/features/GetHotelsAndLocations.feature:4
+    Given From Hotels API, Set <query_value> For Query.
+    When From Hotels API, Call Get Hotels API.
+    Then Verify API 200 Status Code.
+
+    Examples: 
+
+  @get_hotels_and_locations
+  Scenario Outline: Verify Get Hotels And Locations API Response Code. # src/test/resources/features/GetHotelsAndLocations.feature:10
+    Given From Hotels API, Set Paris For Query.                        # GetHotelsAndLocationsStepDef.setQueryValue(String)
+    When From Hotels API, Call Get Hotels API.                         # GetHotelsAndLocationsStepDef.callGetHotelsAPI()
+    Then Verify API 200 Status Code.                                   # BookApartmentStepDef.verifyStatusCode(String)

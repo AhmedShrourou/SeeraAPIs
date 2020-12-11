@@ -1,0 +1,26 @@
+{
+  "defaultHost": "https://www.tajawal.ae/api/",
+  "defaultHttpMethod":"POST",
+  "defaultContentType":"application/json",
+  "defaultRequestHeaders": [],
+  "services" :
+  [
+
+    {
+      "name": "get_hotels",
+      "httpMethod":"GET",
+      "url": "hotel/ahs/v2/geo-suggest?query={queryValue}"
+    },
+    {
+      "name": "book_room",
+      "url": "hotel/ahs/search/request",
+      "requestBodyParams": [
+        {
+          "name": "json",
+          "value": "{\"dates\": {  \"checkin\": \"{checkin}\",  \"checkout\": \"{checkout}\"},\"destination\": \"paris\",{roomArray},\"placeId\": \"ChIJD7fiBh9u5kcRYJSMaMOCCwQ\"}"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Verify API (.*) Status Code\\.$",
+    "steps": [
+      {
+        "name": "Verify API 200 Status Code.",
+        "aggregatedDurations": {
+          "average": 0.001877687,
+          "median": 0.001877687
+        },
+        "durations": [
+          {
+            "duration": 0.001877687,
+            "location": "src/test/resources/features/GetHotelsAndLocations.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^From Hotels API, Call Get Hotels API\\.$",
+    "steps": [
+      {
+        "name": "From Hotels API, Call Get Hotels API.",
+        "aggregatedDurations": {
+          "average": 0.839128948,
+          "median": 0.839128948
+        },
+        "durations": [
+          {
+            "duration": 0.839128948,
+            "location": "src/test/resources/features/GetHotelsAndLocations.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^From Hotels API, Set (.*) For Query\\.$",
+    "steps": [
+      {
+        "name": "From Hotels API, Set Paris For Query.",
+        "aggregatedDurations": {
+          "average": 0.001752995,
+          "median": 0.001752995
+        },
+        "durations": [
+          {
+            "duration": 0.001752995,
+            "location": "src/test/resources/features/GetHotelsAndLocations.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.862649">
+<testcase classname="Verify Get Hotels and Location API." name="Verify Get Hotels And Locations API Response Code." time="0.862649">
+<system-out><![CDATA[Given From Hotels API, Set Paris For Query..................................passed
+When From Hotels API, Call Get Hotels API...................................passed
+Then Verify API 200 Status Code.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
